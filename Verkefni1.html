@@ -46,18 +46,122 @@
 						<!-- Content -->
 							<section id="content">
 								<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-								<h3>Dolore Amet Consequat</h3>
-								<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam cubilia adipiscing interdum aliquet aliquet placerat cubilia accumsan cep ante nullam adipiscing tortor odio. Iaculis adipiscing accumsan nascetur in cras. Lacinia placerat.</p>
-								<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique faucibus magna adipiscing aliquet blandit nisi dolor accumsan nascetur lorem. Vis enim. Curae. Mi arcu vis aliquam ipsum non accumsan ac mi faucibus amet eu accumsan erat interdum semper accumsan. Eu sagittis tellus accumsan neque lorem penatibus in porttitor. Vivamus commodo curae. Condimentum lobortis praesent id ac lorem. Lorem vis ipsum dolor feugiat consequat dolore adipiscing.</p>
-								<h3>Sed Magna Ornare</h3>
-								<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus. In accumsan lorem nunc ultrices a ac eu accumsan ac id nullam. Nec lobortis. Faucibus. Mi commodo laoreet arcu at non mi lacinia aliquet non lobortis phasellus accumsan nascetur varius. Integer orci porttitor eu faucibus aliquet faucibus ac accumsan adipiscing accumsan odio. Ut adipiscing.</p>
-								<ul>
-									<li>Faucibus orci lobortis ac adipiscing integer.</li>
-									<li>Col accumsan arcu mi aliquet placerat.</li>
-									<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-									<li>Blandit massa non blandit tempor interdum.</li>
-									<li>Lacinia mattis arcu nascetur lobortis.</li>
+								<h3>Introduction</h3>
+                                <p>
+                                    The first assignment of the course VÉL608G Modern Manufacturing Processes was to make a website (this website) that would act as a portfolio for the course's assignments aswell as getting familiar with git. Here you can see the process of making this website, how it was done and the challenges encountered on the way.
+                                </p>
+                                <h3>The preperation and gathering information </h3>
+                                <p>
+                                    Before I started the making of this website, I read the assignment description thoroughly and watched the <a href = "https://www.youtube.com/playlist?list=PLGuNTpc293hpIpAVSJ3-SgNolCTa1BfJE " target = "_blank">YouTube videos</a> related to this project, and read a guide on the HTML language at <a href = "https://www.w3schools.com/" target = "_blank">w3schools</a> .</p>
+                                <p>After gathering some information and having formulated a rough idea of how I wanted my website to look I downloaded the recommended programs for this assignment. I downloaded Brackets from <a href = "https://brackets.io/" target = "_blank">Brackets</a>. Brackets is a convenient program that allows you to see a live preview of the website. I then made a <a href = "https://github.com/AlliGunn" target = "_blank">GitHub account</a> to be able to launch the website as well as downloaded git Bash from <a href = "https://git-scm.com/" target = "_blank">Git</a> to load the project to my repository.</p>
+                                <h3>The making of this website</h3>
+                                <p>
+                                    After gathering the necessary information and tools for the project I searched for the ideal website template at <a href = "https://html5up.net/" target = "_blank">HTML5UP</a>. I needed it to be simple, neat, and aesthetically pleasing as well as having a drop-down menu that you can view all the assignments from. I decided to go with the Landed template as it fit my criteria for the website. I then downloaded it and opened it in Brackets, where I began to refine the website in accordance with the requirements. Such as deleting unwanted sections and adding necessary sections to the homepage in addition to creating a HTML file for each subpage and linking them to the correct places on the drop-down menu and “learn more” buttons. I then changed all the texts on the homepage and the drop-down menu as well as linked the icons in the footer to the correct places on every page.
+                                </p>
+                                <center>
+                                    <a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+                                     <figcaption>Picture of the three icons in the footer</figcaption>
+                                    </center>
+                                <p>
+                                    I needed to replace all the pictures in the template to fit my project. I did that by cropping the pictures to the same size as the original pictures in the photo editor on my computer and then utilized the following code to display them. 
+                                </p>
+                                <pre>
+                                <code>
+                                    &lt;a href="#" class="image"&gt;&lt;img src="images/pic09.jpg" alt="" /&gt;&lt;/a&gt;
+                                </code>
+                                </pre>
+                                <p>For the pictures that I added, that is not the ones I replaced. I used &lt;center&gt; to center it and &lt;figcaption&gt to label it.</p>
+                                <pre>
+                                <code>
+                                    &lt;center&gt;
+                                    
+                                    &lt;a href="#" class="image"&gt;&lt;img src="images/pic09.jpg" alt="" /&gt;&lt;/a&gt;
+                                     &lt;figcaption&gt;Picture of the three icons in the footer&lt;/figcaption&gt;
+                                    &lt;/center&gt;
+                                
+                                </code>
+                                </pre>
+                                
+                                <h3> The CV</h3>
+                                <p>
+                                  Additionally, to the assignment portfolio the website had to have your CV. I wanted to display my CV as a pdf document, so I searched on google “how to display a pdf in html” and found my solution at <a href = " https://pdf.wondershare.com/how-to/embed-pdf-in-html.html#:~:text=the%20data%20attribute.-,Embed%20PDF%20in%20HTML%20Using%20the%20Tag,file%20that%20will%20be%20embedded." target = "_blank">Wondershare</a>. Where I learned I could use the iframe tag, however it didn’t quite fit the page as I wanted.
+                                </p>
+                                <center>
+                                    <a href="#" class="image"><img src="images/pic10.jpg" alt="" /></a>
+                                     <figcaption>Picture of how the pdf document didn´t fit the page</figcaption>
+                                
+                                </center>
+                                <p></p>
+                                <p>
+                                    So, I asked ChatGPT how to fit the pdf to the page which resulted in the code below.
+                                </p>
+                                <pre>
+                                    <code>
+                                    &lt;style&gt;
+                                            body, html {
+                                                        height: 100%;
+                                                        margin: 0;
+                                                    }
+                                                    #page-wrapper {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        height: 100%;
+                                                    }
+                                                    #header {
+                                                        background: #333;
+                                                        color: #fff;
+                                                        padding: 1em;
+                                                        text-align: center;
+                                                    }
+                                                    #pdf-container {
+                                                        flex: 1;
+                                                        overflow: hidden;
+                                                    }
+                                                    #pdf-viewer {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                    }
+                                                &lt;/style&gt;
+                                    </code>
+                                </pre>
+                                <h3>Publishing the website</h3>
+                                <p>
+                                    Upon finishing the design of my website, I could publish it by uploading it to GitHub using Git Bash. I started by creating a <a href = "https://github.com/AlliGunn/Vefsida-AAG" target = "_blank">repository</a> in GitHub, made it public and assigned it a name. I then opened Git Bash, which I had downloaded at the start of the project, in the website’s directory by right clicking inside the website's folder and selecting "Open Git Bash here. 
+                                </p>
+                                    <center>
+                                    <a href="#" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                     <figcaption>Opening Git Bahs inside the website's directory</figcaption>
+                                    </center>
+                                <p></p>
+                                <p>
+                                When you create the repository GitHub gives you detailed instructions on how to upload your website to the repository (see the picture below). However instead of using “git add README.md” you can use “git add .” to add all the files in the directory. This modification allows for the addition of all files, enhancing efficiency in the process.
+                                </p>
+                                 <center>
+                                    <a href="#" class="image"><img src="images/pic13.jpg" alt="" /></a>
+                                     <figcaption>Instructions on how to push your website to Git Hub using Git Bash</figcaption>
+                                    </center>
+                                <p></p>
+                                <p>When I did this for the first time, I received an “Author identity unknown” error which led to a “src refspec main does not match any” error.</p>
+                                <ul class="actions fit small">
+									<li><a href="#" class="image"><img src="images/pic14.jpg" alt="" /></a> <figcaption>"Author indentity unknown" error</figcaption>
+                                    
+                                    </li>
+									<li><a href="#" class="image"><img src="images/pic15.jpg" alt="" /></a><figcaption>“src refspec main does not match any” error</figcaption></li>
+									
 								</ul>
+                                <p>I discovered the solution to this issue on <a href="https://stackoverflow.com/questions/29685337/git-commit-author-doesnt-work-when-global-not-set" target="_blank">Stack Overflow</a> and by executing the provided code,                                 <code>
+                                    GIT_AUTHOR_EMAIL="you@email.com" && GIT_AUTHOR_NAME="Your Name" && git commit
+                                </code>, along with following the rest of the instructions, I was able to successfully upload my website to the repository.</p>
+                                <p>After successfully pushing the files with Git Bash they should be in the repository you made on GitHub. There you need to go to settings>pages and make sure that you have the main branch selected as well as the root folder. Then a link to your website will appear if you exit the settings and open it again.</p>
+
+                                <ul class="actions fit small">
+									<li><a href="#" class="image"><img src="images/pic18.jpg" alt="" /></a> <figcaption>Main branch and the root folder selected</figcaption>
+                                    
+                                    </li>
+									<li><a href="#" class="image"><img src="images/pic19.jpg" alt="" /></a><figcaption>The website becoming live</figcaption></li>
+                                </ul>
+                                
+
 							</section>
 
 					</div>
@@ -66,12 +170,9 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.linkedin.com/in/a%C3%B0alsteinn-ari-gunnarsson-31709a26a/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/alli.gunn/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/AlliGunn" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Aðalsteinn Ari Gunnarsson. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
